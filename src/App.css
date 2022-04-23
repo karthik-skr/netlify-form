@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 600px;
+  text-align: left;
+}
+form * {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+form label {
+  font-weight: bold;
+}
+form button{
+  width: 200px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
