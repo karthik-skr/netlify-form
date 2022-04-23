@@ -39,7 +39,7 @@ function App() {
          <input name="email" type="email" value={email} onChange={handleChange} required/><br/>
          <label>Message</label><br/>
          <textarea name="message"  value={message} onChange={handleChange} required/><br/>
-         <button type="button">Send Message</button>
+         <button type="submit">Send Message</button>
        </form>
       </header>
     </div>
